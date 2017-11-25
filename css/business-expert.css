@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.width-container{
+    max-width: 1000px;
+    margin: auto;
+}
+.menu {
+    line-height: 45px;
+    text-align: center;
+    max-width: 835px;
+    margin: auto;
+}
+.top-menu{
+    background: #0247a7;
+    min-height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+.top-menu li{
+    display: inline-block;
+    position: relative;
+}
+.top-menu a{
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.top-menu li::before {
+    content: "";
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    background-color: #2789c9;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+
+}
+.top-menu li:first-child:before {
+   display: none;
+}
+.section{
+    background: url(../img/Layer-3.png)no-repeat center;
+    min-height: 388px;
+    background-size: cover;
+}
+.section img{
+    min-height: 92px;
+}
+.section h1{
+    margin-left: 20px;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.float-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.box{
+    background: url(../img/Layer-361.png);
+    min-height: 390px;
+    overflow: hidden;
+
+}
+.text{
+    float: left;
+    width: 328px;
+    padding-top: 100px;
+    color:#fff;
+    text-align: right;
+    padding-left: 50px;
+}
+.text h2{
+    font-size: 40px;
+}
+.text h6{
+    font-size:16px;
+}
+.text p{
+    font-size: 12px;
+}
+.video{
+    float: right;
+    padding: 22px;
+}
+.main-section{
+    overflow: hidden;
+    border: 1px solid #e9e9e9;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 5px 0;
+}
+.left-side{
+    margin-left: 20px;
+}
+.left-side{
+    float: left;
+    width: 660px;
+
+}
+.left-side h1{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+.left-side p li{
+    font-size: 12px;
+}
+.left-side p{
+    color: #424242;
+    font-size: 12px;
+}
+.left-side ul {
+    list-style-type: disc;
+}
+.left-side li {
+    color: #913517;
+    padding-bottom: 20px;
+}
+.left-side span{
+    color: #000;
+    font-size: 12px;
+}
+.line {
+    border-top: dashed;
+    color: #d9d9d9;
+    min-height: 1px;
+    min-width: 3px;
+    MARGIN-BOTTOM: 35px;
+    margin-top: 35px;
+}
+.left-side img{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 20px 0;
+
+}
+.pic-container p{
+    text-align: center;
+    color:#9b9b9b;
+    padding-bottom: 30px;
+}
+button{
+    min-height: 52px;
+    width: 195px;
+    background-color: #973a1d;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.right-side{
+    float: right;
+    width: 302px;
+    border-left: 1px solid #e9e9e9;
+}
+.field1{
+    height: 105px;
+    background: #f9f9f9;
+}
+.field1 img{
+    float: left;
+    min-height: 35px;
+    padding-right: 25px;
+    margin-left: 30px;
+}
+.field1 h3{
+    font-size: 26px;
+    font-weight: 100;
+    color: #333333;
+}
+.field1 p{
+    text-align: right;
+    padding-top: 30px;
+    font-size: 11px;
+    color: #a5a5a5;
+    padding-right: 20px;
+}
+.blue-line{
+    height: 45px;
+    background: #0077c7;
+}
+.text-sec h3{
+    float: left;
+    padding-right: 9px;
+    color:#fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-top: 12px;
+
+}
+.text-sec p{
+    color:#85d0ff;
+    font-size: 12px;
+    padding-top: 20px;
+
+}
+.field2{
+    height: 150px;
+    background:  #f9f9f9;
+    border-bottom: 1px solid #e9e9e9;
+}
+.up img{
+    float: left;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 23px;
+    padding-right: 13px;
+}
+.up h3{
+    padding-top: 29px;
+    font-size: 14px;
+    color: #0483cc;
+    text-transform: uppercase;
+}
+.up {
+    color: #a5a5a5;
+    font-size: 11px;
+}
+.down p{
+    margin-left: 20px;
+    margin-top: 18px;
+    color: #333333;
+    font-size: 12px;
+}
+.blue-line h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.field3{
+    height: 95px;
+    background: #f9f9f9;
+    padding-top: 25px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.field3 img{
+    float: left;
+    margin-left: 17px;
+    margin-right: 20px;
+}
+.field3 h6{
+    color: #0483cc;
+    font-size:14px ;
+    text-transform: uppercase;
+}
+.field3 p{
+    font-size: 12px;
+    color: #333333;
+}
+.text-container{
+    float: left;
+    width: 50%;
+}
+.footer{
+    border:1px solid #007bca;
+    margin-top: 30px;
+    background: #c6e9ff;
+    height: 131px;
+    border-radius: 5px;
+}
+.footer .logo {
+    position: relative;
+}
+.logo img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 25px;
+    position	: relative;
+}
+.logo .rotate{
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    transform: rotate(-12deg);
+    font-size: 11px;
+    left: 20px;
+    color: #a35f0e;
+}
+.rotate h4{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.rotate p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.content h2{
+    margin-top: 22px;
+    font-size: 22px;
+    color: #007bca;
+    text-transform: uppercase;
+}
+.content p{
+    color: #318dd2;
+    font-size: 12px;
+}
+.right li{
+    float: left;
+    padding: 0 35px;
+    padding-left: 15px;
+    color: #007bca;
+}
+.right a{
+    text-decoration: none;
+    color: #007bca;
+}
+.right ul{
+    list-style-type: disc;
+}
+.left p{
+    padding-top: 25px;
+    font-size: 12px;
+    color: #c6c6c6;
+}
+.bottom-sec {
+    overflow: hidden;
+    height: 60px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    padding-top: 25px;
+}
